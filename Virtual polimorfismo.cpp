@@ -4,13 +4,11 @@
 using namespace std;
 
 class A{
-	public:
-		virtual int get(){ return YO; }
+	public: virtual int get(){ return YO; }
 };
 
 class B : public A{
-	public:
-		int get(){ return YO+1; }
+	public: int get(){ return YO+1; }
 };
 
 int main(int argc, char** argv){
