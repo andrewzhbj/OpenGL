@@ -1,14 +1,17 @@
 #include <iostream>
-#define YO 1
 
 using namespace std;
 
 class A{
-	public: virtual int get(){ return YO; }
+	public: virtual int get(){ 
+		return 1; 
+	}
 };
 
 class B : public A{
-	public: int get(){ return YO+1; }
+	public: int get(){ 
+		return 2; 
+	}
 };
 
 int main(int argc, char** argv){
